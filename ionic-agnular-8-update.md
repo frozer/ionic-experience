@@ -19,16 +19,13 @@ Install the latest angular devkit updates with
 
 ```shell
 npm i @angular-devkit/architect@latest @angular-devkit/build-angular@latest @angular-devkit/core@latest @angular-devkit/schematics@latest
+```
 
-# or if you’re on a mac/linux
+or if you’re on a mac/linux
 
 ```shell
 npm i @angular-devkit/{architect,build-angular,core,schematics}@latest
 ```
-
-
-
-
 
 Potential Issues
 There is a known bug in an older version of the Angular CLI that will cause the update commands to stop running and exit. If you encounter this, please look over this issue and use the commands below.
@@ -56,8 +53,4 @@ npx ng update @angular/core
 Notice that this has you updating the Angular CLI first, then updating Angular Core. From here, you can continue on with the remaining commands in the guide above.
 
 
-
-
 If you encounter any problems, please open a new issue on the Ionic repo with detailed steps to reproduce: https://github.com/ionic-team/ionic/issues
-
-
