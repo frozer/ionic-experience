@@ -3,8 +3,7 @@ Updating Ionic to Angular 8
 Update @ionic/angular and @ionic/angular-toolkit to the latest release
 
 ```shell
-npm install @ionic/angular@4.7.0
-npm install @ionic/angular-toolkit@2.0.0 -D
+npm install @ionic/angular@latest @ionic/angular-toolkit@latest --save
 ```
 
 From here we can run the following commands
