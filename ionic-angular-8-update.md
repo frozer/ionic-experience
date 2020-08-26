@@ -1,4 +1,4 @@
-Updating Ionic to Angular 8
+# Updating Ionic to Angular 8
 
 Based on some document found in the deeps of Ionic issue tracker :-)
 
@@ -14,6 +14,7 @@ From here we can run the following commands
 npx ng update @angular/core @angular/cli
 ```
 Now most packages should be updated, just to be sure, we also need to update these 
+
 > Note from Denis
 >
 > At this point everything is gone to hell :-) I have to run upgrade command with --force. And I received an error about zone.js dependency.
@@ -39,7 +40,12 @@ or if you’re on a mac/linux
 npm i @angular-devkit/{architect,build-angular,core,schematics}@latest
 ```
 
-Potential Issues
+## Potential Issues
+
+> Notte from Denis
+> Really useful was to drop node-modules folder and remove packahe-lock.json, after that perform _npm install_, and start again
+>
+
 There is a known bug in an older version of the Angular CLI that will cause the update commands to stop running and exit. If you encounter this, please look over this issue and use the commands below.
 
 https://github.com/angular/angular-cli/issues/14589
@@ -63,6 +69,5 @@ npx ng update @angular/core
 ```
 
 Notice that this has you updating the Angular CLI first, then updating Angular Core. From here, you can continue on with the remaining commands in the guide above.
-
 
 If you encounter any problems, please open a new issue on the Ionic repo with detailed steps to reproduce: https://github.com/ionic-team/ionic/issues
