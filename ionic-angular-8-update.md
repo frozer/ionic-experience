@@ -1,4 +1,4 @@
-# Updating Ionic to Angular 8
+# Updating Ionic 4/Angular 7 to Ionic 5.3.1/Angular 8
 
 Based on some document found in the deeps of Ionic issue tracker :-)
 
