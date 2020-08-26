@@ -42,7 +42,8 @@ npm i @angular-devkit/{architect,build-angular,core,schematics}@latest
 
 ## Potential Issues
 
-> Notte from Denis
+> Note from Denis
+>
 > Really useful was to drop node-modules folder and remove packahe-lock.json, then perform _npm install_, and start again
 >
 
