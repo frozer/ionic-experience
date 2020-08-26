@@ -43,7 +43,7 @@ npm i @angular-devkit/{architect,build-angular,core,schematics}@latest
 ## Potential Issues
 
 > Notte from Denis
-> Really useful was to drop node-modules folder and remove packahe-lock.json, after that perform _npm install_, and start again
+> Really useful was to drop node-modules folder and remove packahe-lock.json, then perform _npm install_, and start again
 >
 
 There is a known bug in an older version of the Angular CLI that will cause the update commands to stop running and exit. If you encounter this, please look over this issue and use the commands below.
