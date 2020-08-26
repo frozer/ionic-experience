@@ -1,6 +1,6 @@
 Updating Ionic to Angular 8
 
-Based on some document found in the deep of Ionic issue tracker :-)
+Based on some document found in the deeps of Ionic issue tracker :-)
 
 Update @ionic/angular and @ionic/angular-toolkit to the latest release
 
@@ -15,6 +15,7 @@ npx ng update @angular/core @angular/cli
 ```
 Now most packages should be updated, just to be sure, we also need to update these 
 > Note from Denis
+>
 > At this point everything is gone to hell :-) I have to run upgrade command with --force. And I received an error about zone.js dependency.
 > Used https://medium.com/better-programming/upgrade-to-angular-8-beta-within-10-minutes as a quick note. Performed following steps:
 ```shell
@@ -24,7 +25,7 @@ npm install zone.js@0.9.1
 ```shell
 npm install @types/jasmine@latest @types/node@latest codelyzer@latest karma@latest karma-chrome-launcher@latest karma-cli@latest karma-jasmine@latest karma-jasmine-html-reporter@latest jasmine-core@latest jasmine-spec-reporter@latest protractor@latest tslint@latest webpack@latest rxjs-tslint@latest --save-dev
 ```
-> After that I returned to initial document step, and continued with "Install the latest angu;ar devkit updates" below
+> After that I returned to initial document steps, and continued with "Install the latest angular devkit updates" below.
 
 Install the latest angular devkit updates with 
 
