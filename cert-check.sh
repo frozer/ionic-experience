@@ -3,14 +3,14 @@
 #
 PWD=`pwd`
 TIMESTAMP=`date +%s`
-HELP="cert-check.sh <PATH-TO-IPA>\n"
+HELP="Signing certificate check utility.\nUsage: cert-check.sh <PATH-TO-IPA>\n"
 TMP="/tmp/cert-check.${TIMESTAMP}"
 IPA=$1
 UNZIP=`which unzip`
 CODESIGN=`which codesign`
 OPENSSL=`which openssl`
 
-[ -z $IPA ] && { echo "ERROR: No IPA defined.\n${HELP"; exit 1 }
+[ -z $IPA ] && { echo "ERROR: No IPA defined.\n${HELP}"; exit 1 }
 [ -z $UNZIP ] && { echo "ERROR: No Unzip found.\n"; exit 1 }
 [ -z $CODESIGN ] && { echo "ERROR: No Codesign found.\n"; exit 1 }
 [ -z $OPENSSL ] && { echo "ERROR: No OpenSSL found.\n"; exit 1 }
